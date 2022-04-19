@@ -382,6 +382,7 @@
 "Assets/Monobit Unity Networking/Samples/Scripts/SimpleChat/SimpleChat.cs"
 "Assets/Monobit Unity Networking/Support/MonobitAutoLoginTemplate.cs"
 "Assets/Monobit Unity Networking/Support/MonobitPlayerMoveTemplate.cs"
+"Assets/Script/Bomb.cs"
 "Assets/Shared/Ramps/Runtime/RampAsset.cs"
 "Assets/Shared/Scripts/AdjustTimeScale.cs"
 "Assets/Shared/Scripts/ProximityActivate.cs"
