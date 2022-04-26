@@ -7665,6 +7665,7 @@ GameObject:
   - component: {fileID: 5172507765744575215}
   - component: {fileID: 5172507765744575214}
   - component: {fileID: 5172507765744575213}
+  - component: {fileID: -870832240735229082}
   m_Layer: 0
   m_Name: unitychan_dynamic_locomotion
   m_TagString: Untagged
@@ -7955,7 +7956,7 @@ MonoBehaviour:
     axisAction: 0
     buttonAction: 0
     actionType: 0
-    Position: {x: 0, y: 0, z: 0.1}
+    Position: {x: 0, y: 0, z: 0.02}
     Rotation: {x: 0, y: 0, z: 0}
     SelectLayer: 0
     layerInfo:
@@ -8013,7 +8014,7 @@ MonoBehaviour:
     axisAction: 1
     buttonAction: 0
     actionType: 0
-    Position: {x: 0, y: 0, z: -0.1}
+    Position: {x: 0, y: 0, z: -0.01}
     Rotation: {x: 0, y: 0, z: 0}
     SelectLayer: 0
     layerInfo:
@@ -8072,7 +8073,7 @@ MonoBehaviour:
     buttonAction: 0
     actionType: 1
     Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 5, z: 0}
+    Rotation: {x: 0, y: 1, z: 0}
     SelectLayer: 0
     layerInfo:
     - m_Index: 0
@@ -8130,7 +8131,7 @@ MonoBehaviour:
     buttonAction: 0
     actionType: 1
     Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: -5, z: 0}
+    Rotation: {x: 0, y: -1, z: 0}
     SelectLayer: 0
     layerInfo:
     - m_Index: 0
@@ -8508,6 +8509,20 @@ MonoBehaviour:
   prefixBackup: 0
   ownershipTransfer: 0
   compressedStream: 0
+--- !u!114 &-870832240735229082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5172507764422928866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d00552113f86046aabfcc354be82aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 1086444695458900553, guid: f11e6d8fea76d1e4aa0d5bc570ce211e,
+    type: 3}
 --- !u!1 &5172507764422928868
 GameObject:
   m_ObjectHideFlags: 0

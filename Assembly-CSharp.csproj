@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A23C9898-3F15-7173-75EB-EE14334A7A3B}</ProjectGuid>
+    <ProjectGuid>{23FEFD07-F2CD-B44B-7956-8D34121D505C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,9 +52,6 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.3.0f1</UnityVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Monobit Unity Networking\Samples\Scripts\RoomFilter\RoomFilter.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
@@ -100,8 +97,9 @@
     <Compile Include="Assets\UnityChan\Scripts\AutoBlinkforSD.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Monobit Unity Networking\Samples\Scripts\SearchPlayer\SearchPlayer.cs" />
-    <Compile Include="Assets\Monobit Unity Networking\Plugins\MonobitNetwork\MonobitNetwork.cs" />
     <Compile Include="Assets\Script\Bomb.cs" />
+    <Compile Include="Assets\Monobit Unity Networking\Plugins\MonobitNetwork\MonobitNetwork.cs" />
+    <Compile Include="Assets\Script\BombGene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -849,7 +847,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B6014D86-6E89-CA34-FA0A-33D6C3F81231}</Project>
+      <Project>{54391E14-BDDE-8247-7BA3-A90C401875AB}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
