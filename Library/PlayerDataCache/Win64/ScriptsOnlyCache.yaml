@@ -37,8 +37,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -120,55 +118,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16930}
+      Script: {instanceID: 2248}
     - Class: 114
-      Script: {instanceID: 17034}
+      Script: {instanceID: 2352}
     - Class: 114
-      Script: {instanceID: 17116}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 17394}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 17678}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 17758}
+      Script: {instanceID: 3082}
     - Class: 114
-      Script: {instanceID: 18060}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 18270}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 19226}
+      Script: {instanceID: 3770}
     - Class: 114
-      Script: {instanceID: 19232}
+      Script: {instanceID: 4560}
     - Class: 114
-      Script: {instanceID: 19502}
+      Script: {instanceID: 4566}
     - Class: 114
-      Script: {instanceID: 19516}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 19942}
+      Script: {instanceID: 4850}
     - Class: 114
-      Script: {instanceID: 20274}
+      Script: {instanceID: 5278}
     - Class: 114
-      Script: {instanceID: 20292}
+      Script: {instanceID: 5610}
     - Class: 114
-      Script: {instanceID: 20974}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 21158}
+      Script: {instanceID: 6316}
     - Class: 114
-      Script: {instanceID: 21514}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 21588}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 6932}
     - Class: 114
-      Script: {instanceID: 22024}
+      Script: {instanceID: 7150}
     - Class: 114
-      Script: {instanceID: 22310}
+      Script: {instanceID: 7370}
     - Class: 114
-      Script: {instanceID: 22332}
+      Script: {instanceID: 7660}
     - Class: 114
-      Script: {instanceID: 22724}
+      Script: {instanceID: 7682}
     - Class: 114
-      Script: {instanceID: 54304}
+      Script: {instanceID: 8074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -662,6 +660,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RampAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a222897da86994178b39f88fa5c47f66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BombGene
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1658,13 +1662,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a222897da86994178b39f88fa5c47f66
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BombGene
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/UnityBuild/tes/BomberMan.exe
+  playerPath: C:/unity_build/BomberMan.exe
